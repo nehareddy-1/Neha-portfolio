@@ -1,0 +1,15 @@
+version: 1
+
+frontend:
+  phases:
+    build:
+      commands:
+        - echo "Static HTML portfolio — no build step required"
+
+  artifacts:
+    baseDirectory: .
+    files:
+      - "**/*"
+
+  cache:
+    paths: []
